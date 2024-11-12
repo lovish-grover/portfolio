@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/logo/logo.png" alt="" class="logo"/>
+        <ul class="main-nav-list">
+            <li><a href="" class="main-nav-link">Home</a></li>
+            <li><a href="" class="main-nav-link">Work</a></li>
+            <li><a href="" class="main-nav-link">Contact</a></li>
+        </ul>
+    </header>
+    <section class="hero">
+        <img src="./assets/hero/webdev.png" alt="" class="hero-img">
+        <img src="./assets/hero/bg.jpg" alt="" class="bg">
+        <div class="hero-desc">
+            <h1 class="hero-title">HI, I Am <span class="lovish">Lovish !</span></h1>
+            <p class="hero-subheading">Web Developer !</p>
+        </div>
+        <div class="hero-model">
+            <model-viewer
+            src="./models/desk.glb"
+            camera-controls
+            disable-pan
+            disable-zoom
+            interactio-prompt="none"
+            min-camera-orbit="auto 55deg auto"
+            max-camera-orbit="auto 92deg auto"
+            field-of-view="35.5deg"
+            autoplay
+            ></model-viewer>
+        </div>
+    </section>
+    <section class="about-me">
+        <div class="about-me-desc">
+            <p class="introduction">INTRODUCTION !</p>
+            <h1 class="about-me-title">About Me !</h1>
+            <p class="about-me-subheading">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, at. Labore quo enim sit architecto harum accusamus debitis dolor odio.</p>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="./assets/skills/MERN-Stack-removebg-preview.png" alt="" class="mern">
+                <h2 class="title">MERN</h2>
+            </div>
+            <div class="card">
+                <img src="./assets/skills/js.png" alt="" class="js">
+                <h2 class="title">JavaScript</h2>
+            </div>
+            <div class="card">
+                <img src="./assets/skills/springBoot.png" alt="" class="springBoot">
+                <h2 class="title">SpringBoot</h2>
+            </div>
+            <div class="card">
+                <img src="./assets/skills/hibernate-removebg-preview.png" alt="" class="hibernate">
+                <h2 class="title">Hibernate</h2>
+            </div>
+            <div class="card">
+                <img src="./assets/skills/htmlcss.png" alt="" class="html">
+                <h2 class="title">Html & Css</h2>
+            </div>
+        </div>
+    </section>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+</body>
+</html>

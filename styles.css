@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:wght@400;500;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #010115;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    place-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    padding: 0 10vw;
+}
+.logo{
+    width: 7vw;
+    z-index: 1;
+}
+.main-nav-list{
+    display: flex;
+    list-style: none;
+    gap: 5vw;
+}
+.main-nav-link{
+    text-decoration: none;
+    color: #fffa;
+    font-size: 1.8vw;
+    font-family: "Dancing Script";
+    transition: all o.5s;
+
+
+}
+.main-nav-link:hover{
+    color: #fff;
+}
+.hero{
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.hero::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 5vh;
+    background: linear-gradient(to top, #010115, transparent);
+}
+.hero-img{
+    position: absolute;
+    width: 35vw;
+    margin-left: 60vw;
+}
+
+.hero-desc{
+    position: absolute;
+    color: #fff;
+    margin-top: -60vh;
+    margin-left: -40vw ;
+}
+.hero-title{
+    font-size: 2.2vw;
+    font-family: "EB Garamond";
+
+}
+.hero-subheading{
+    font-size: 1.2vw;
+    font-weight: 400;
+    font-family: "EB Garamond";
+    margin-left: 2vw;
+}
+.lovish{
+    color: #0d31bf;
+    font-family: "Dancing Script";
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-model{
+    position: absolute;
+}
+model-viewer{
+    width: 35vw;
+    height: 60vh;
+    z-index: 1;
+}
+.about-me{
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.about-me-desc{
+    position: absolute;
+    margin-top: -60vh;
+    margin-left: -40vw;
+}
+.introduction{
+    color: #ffffff5a;
+    font-size: 1vh;
+    padding: 0.2vw;
+}
+.about-me-title{
+    color: #fff;
+    font-size: 3vw;
+    font-family: "Dancing Script";
+}
+
+.about-me-subheading{
+    /* position: absolute; */
+    color: #fffa;
+    width: 25vw;
+}
+
+.cards{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 4vh;
+    gap: 2vw;
+}
+
+.card{
+    position: relative;
+    display: grid;
+    width: 10vw;
+    height: 25vh;
+    place-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 9px #fff
+}
+
+.mern{
+    width: 120%;
+    z-index: 1;
+}
+.js{
+    width: 60%;
+    z-index: 1;
+}
+.springBoot{
+    width: 60%;
+    border-radius: 20px;
+    z-index: 1;
+}
+.hibernate{
+    width: 90%;
+    z-index: 1;
+    margin-bottom: -2vh;
+    margin-top: -2vh;
+}
+.html{
+    width: 100%;
+    z-index: 1;
+}
+
+.title{
+    color: #fff;
+
+}
